@@ -1,0 +1,6 @@
+# No required dependencies — the site runs on the Python standard library.
+#
+# Optional: image optimization for uploads (auto-resize + WebP re-encode).
+# Add it in WispByte's "Additional Python Packages" field; without it,
+# images are stored and served exactly as uploaded.
+Pillow>=10.0.0
